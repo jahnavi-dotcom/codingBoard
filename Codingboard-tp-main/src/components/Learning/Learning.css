@@ -1,0 +1,145 @@
+.Tech_Learning {
+   width: 100%;
+   height: auto;
+   background-color: #000;
+}
+
+.Learning_warper {
+   width: 90%;
+   gap: 1rem;
+   position: relative;
+}
+
+.Learning_warper h1 {
+   width: 397.44px;
+   height: 41.23px;
+   font-family: 'Helvetica';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 60px;
+   line-height: 55px;
+   letter-spacing: -1px;
+   color: #FFFFFF;
+}
+
+.Learning_list {
+   gap: 1rem;
+   list-style: none;
+   color: #FFFFFF;
+}
+
+.Learning_list>li {
+   padding: 10px;
+   background-color: #333232;
+   border-radius: 5px;
+   text-transform: capitalize;
+   cursor: default !important;
+}
+.active{
+   background-color: #04AF2F !important;
+}
+
+.Learning_Technologies {
+   width: 88%;
+   height: auto;
+   align-self: center;
+}
+.icon_container {
+   gap: 5rem;
+   align-items: center;
+   /* flex-wrap: wrap; */
+}
+.icon_container2{
+   max-height: 0rem;
+   overflow: hidden;
+   gap: 5rem;
+   align-items: center;
+   justify-content: center;
+   transition:  all 0.7s ease; 
+   transition-delay: unset;
+   /* transition-duration: ease ; */
+}
+.expand{
+   max-height: 50rem !important;
+}
+/*#card1{
+   margin: 10px;
+}
+#card1>.icon_box{
+   background-color: #1C1D21;
+   width: 163.94px;
+   height: 168.18px;
+   box-shadow: 0px 0px 9px rgba(255, 238, 67, 0.3);
+   border-radius: 10px;
+   background: linear-gradient(rgb(10, 10, 10), rgb(11, 10, 10)) padding-box,
+   linear-gradient(to bottom, #FFF37C, #72FF93) border-box !important;
+   border-radius: 10px;
+   border: 3px solid transparent;
+}
+*/
+
+.Single_technologies {
+   width: 139px;
+   height: auto;
+   gap: 30px;
+}
+.icon_box:hover{
+	background-color: #1C1D21;
+   width: 139px !important;
+   box-shadow: 0px 0px 9px rgba(255, 238, 67, 0.3);
+   border-radius: 10px;
+   background: linear-gradient(rgb(10, 10, 10), rgb(11, 10, 10)) padding-box,
+   linear-gradient(to bottom, #FFF37C, #72FF93) border-box !important;
+   border-radius: 10px;
+   border: 3px solid transparent;
+	
+}
+
+.icon_box  {
+   width: 139px;
+   height: 143px;
+   box-shadow: 0px 0px 9px rgba(255, 238, 67, 0.3);
+   border-radius: 10px;
+   position: relative;
+   background: url('../../Images/icons/icon_bg.png');
+   background-size: cover;
+}
+
+.icon_box img {
+   position: absolute;
+   top: 30%;
+   left: 30%;
+   width: 55.18px;
+   height: 60.99px;
+}
+
+.Single_technologies p {
+   width: 115px;
+   height: 21px;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 20px;
+   letter-spacing: -1px;
+   text-align: center;
+   align-self: center;
+   color: #FFFFFF;
+}
+
+.Collapse_btn {
+   position: absolute;
+   width: 161.08px;
+   height: 47.36px;
+   right: 3%;
+   bottom: -2%;
+   background: #04AF2F;
+   border-radius: 5px;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 33px;
+   color: #FFFFFF;
+}
+

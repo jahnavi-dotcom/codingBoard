@@ -1,0 +1,71 @@
+.top_nav {
+   width: 100%;
+   height: auto;
+   margin-top: 1rem;
+}
+
+.nav-wrapper {
+   width: 90%;
+}
+
+.logo {
+   width: 170.6px;
+}
+
+img {
+   width: 170.6px;
+}
+
+.Nav-menu {
+   width: 420px;
+}
+
+.Nav-menu>ul {
+   justify-self: center;
+   gap: 3.5rem;
+   list-style: none;
+   font-family:'Poppins';
+   font-style: normal;
+   font-size: 18px !important;
+   font-weight: 600;
+   line-height: 19px;
+}
+.Nav-menu ul li:hover{
+	color: #04AF2F ;
+}
+.Nav_buttons {
+   width: 170px;
+   gap: 20px;
+}
+
+.Login-btn {
+   width: 44px;
+   height: 24px;
+   border: none;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 300;
+   font-size: 16px;
+   line-height: 24px;
+   background-color: #fff;
+}
+.Login-btn:hover{
+	color: #04AF2F;
+}
+
+
+#Sign-btn {
+   position: relative;
+   bottom: 3px;
+   width: 106.45px;
+   height: 29.42px;
+   border-radius: 4px;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 250;
+   font-size: 16px;
+   line-height: 24px;
+   color: #fff;
+   background-color: #04AF2F !important;
+   border: none;
+}

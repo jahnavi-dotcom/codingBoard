@@ -1,0 +1,64 @@
+.technologies_Copyright{
+    width: 100%;
+    height: 15vh;
+    align-items: center;
+    justify-content: center;
+}
+.Copyright_Wrapper{
+    width: 75%;
+    height: auto;
+    align-items: center;
+    gap: 30px;
+}
+.Icon_logo{
+    width: 67.5px;
+    height: 64.8px;
+}
+.copyright_menu{
+    width: 345.33px;
+    gap: 10px;
+    list-style: none;
+	text-transform: capitalize;
+}
+.copyright_menu li:hover{
+	cursor: pointer;
+	color: #04AF2F;
+}
+.copyright_text{
+    position: relative;
+    left: -30px;
+    width: 263px;
+    height: 15px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+.sending_input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 295px;
+    height: 40px;
+    border: 1px solid #767676;
+    border-radius: 4px;
+}
+.sending_input>input{
+    padding-left: 10px;
+    width: 90%;
+    border: none !important;
+}
+.sending_input>input::placeholder{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #757575;
+}
+.send_icon{
+    width: 7%;
+    background: transparent;
+}

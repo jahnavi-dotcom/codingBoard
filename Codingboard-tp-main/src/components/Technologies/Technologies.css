@@ -1,0 +1,334 @@
+.Technologies {
+   width: 100%;
+   height: auto;
+   background-color: #EEEEEE;
+}
+
+.Tech_wrapper {
+   width: 100%;
+   gap: 1.3rem;
+   margin-top: 1.2rem;
+   padding-top: 5rem;
+}
+
+.Tech_welcome_text {
+   width: 516.23px;
+   height: 47.86px;
+   font-family: 'Helvetica';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 60px;
+   line-height: 55px;
+   letter-spacing: -1px;
+}
+
+.Tech_info_text {
+   width: 767px;
+   height: 43px;
+   font-family: 'Raleway' !important;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 22px;
+   text-align: justify;
+   letter-spacing: -0.03em;
+}
+
+.All_Technologies {
+   width: 60%;
+   height: 100vh;
+   display: grid;
+   grid-template-columns: repeat(3, 30%);
+   grid-template-rows: repeat(3, 32%);
+   gap: 1.3rem;
+}
+
+/* Data sciences technologies css Start */
+.Technologies1 {
+   width: 272.07px !important;
+   height: 236.54px;
+   background: #000000;
+   border-radius: 10px;
+   justify-content: center;
+   align-items: center;
+}
+
+.Technologies1 p {
+   width: 230px;
+   height: 46px;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 35px;
+   line-height: 35px;
+   letter-spacing: -1px;
+   color: #EEEEEE;
+}
+
+.Technologies1 img {
+   width: 94px;
+   height: 94px;
+   align-self: flex-end;
+   position: relative;
+   top: 30px;
+   left: -30px;
+}
+
+.Technologies1>button {
+   border: none;
+   background: transparent;
+   width: fit-content;
+   cursor: pointer;
+   align-self: flex-start;
+   position: relative;
+   top: -25px;
+   left: 50px;
+}
+
+.Technologies1>button>img {
+   width: 31px !important;
+   height: 31px !important;
+}
+
+/* Data sciences technologies css End */
+/* Top programming Technologies Css Start  */
+.Technologies2 {
+   width: 646px;
+   grid-column: span 2;
+   height: 200px;
+   background: #000000;
+   border-radius: 12px;
+   padding: 0px 10px;
+   align-items: center;
+   position: relative;
+}
+
+.Technologies2 p {
+   width: 439px;
+   height: 107px;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 45px;
+   line-height: 44px;
+   text-align: right;
+   letter-spacing: -1px;
+   color: #FFFFFF;
+   position: absolute;
+   left: 24%;
+}
+
+
+.Technologies2 img {
+   width: 100px;
+   height: 200px;
+}
+
+.Technologies2>button {
+   border: none;
+   background: transparent;
+   width: fit-content;
+   cursor: pointer;
+   position: absolute;
+   bottom: 25px;
+   right: 20px;
+}
+
+.Technologies2>button>img {
+   width: 32.54px;
+   height: 32.54px;
+}
+
+/* Top programming Technologies Css End  */
+/* Web development technologies css stat */
+.Technologies3 {
+   width: 270px;
+   height: 403px;
+   background: #000000;
+   border-radius: 12px;
+   position: relative;
+}
+
+.Technologies3 p {
+   width: 250px;
+   height: 107px;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 35px;
+   line-height: 35px;
+   letter-spacing: -1px;
+   color: #FFFFFF;
+   position: absolute;
+   top: 7%;
+   left: 10%;
+}
+
+.Technologies3 img {
+   position: absolute;
+   left: 1%;
+   bottom: 12%;
+}
+
+.Technologies3>button {
+   border: none;
+   background: transparent;
+   width: fit-content;
+   cursor: pointer;
+   position: absolute;
+   bottom: 9%;
+   left: 80%;
+}
+
+.Technologies3>button>img {
+   width: 34px;
+   height: 34px;
+}
+
+/* Web development technologies css End */
+/* Web Online terminal technologies css Start */
+.Technologies4 {
+   width: 357.48px;
+   height: 229px;
+   background: #41F361;
+   border-radius: 10px;
+   position: relative;
+   top: -2rem;
+}
+
+.Technologies4 p {
+   position: absolute;
+   width: 183px;
+   height: 34px;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 35px;
+   line-height: 35px;
+   letter-spacing: -1px;
+   color: #000000;
+   position: absolute;
+   top: 10%;
+   left: 10%;
+}
+
+.Technologies4 img {
+   width: 61px;
+   height: 61px;
+   position: absolute;
+   left: 10%;
+   bottom: 10%;
+}
+
+.Technologies4>button {
+   border: none;
+   background: transparent;
+   width: fit-content;
+   cursor: pointer;
+   position: absolute;
+   bottom: 9%;
+   left: 80%;
+}
+
+.Technologies4>button>img {
+   width: 34px;
+   height: 34px;
+}
+
+/* Web Online terminal technologies css Start */
+/* Web DocumentEditor  technologies css Start */
+.Technologies5 {
+   width: 270px;
+   height: 440px;
+   position: relative;
+   left: 5rem;
+   top: -2.3rem;
+   background: rgba(233, 217, 63, 0.6);
+   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.04);
+   border-radius: 10px;
+   border-radius: 12px;
+}
+
+.Technologies5 p {
+   width: 247px;
+   height: 107px;
+   position: absolute;
+   top: 5%;
+   left: 10%;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 38px;
+   line-height: 40px;
+   letter-spacing: -1px;
+   color: #000000;
+   background: transparent;
+}
+
+.Technologies5 img {
+   width: 86px;
+   height: 106px;
+   position: absolute;
+   bottom: 10%;
+   left: 10%;
+}
+
+.Technologies5>button {
+   border: none;
+   background: transparent;
+   width: fit-content;
+   cursor: pointer;
+   position: absolute;
+   bottom: 9%;
+   left: 75%;
+}
+
+.Technologies5>button>img {
+   width: 34px;
+   height: 34px;
+}
+
+/* Web DocumentEditor  technologies css End */
+/* WebCompiler  technologies css Start */
+.Technologies6 {
+   width: 357.48px;
+   height: 189px;
+   grid-column-start: 2;
+   background: #000000;
+   border-radius: 10px;
+   position: relative;
+   top: -2.2rem;
+}
+
+.Technologies6 p {
+   width: 295.76px;
+   height: 107px;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 35px;
+   line-height: 35px;
+   letter-spacing: -1px;
+   color: #FFFFFF;
+   position: absolute;
+   top: 10%;
+   left: 10%;
+}
+
+.Technologies6>button {
+   border: none;
+   background: transparent;
+   width: fit-content;
+   cursor: pointer;
+   position: absolute;
+   bottom: 9%;
+   left: 80%;
+}
+
+.Technologies6>button>img {
+   width: 34px;
+   height: 34px;
+
+}
+
+/* WebCompiler  technologies css End */

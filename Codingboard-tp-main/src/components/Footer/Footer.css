@@ -1,0 +1,133 @@
+.technology_Footer {
+   width: 100%;
+   height: auto;
+   background-color: #000;
+   text-transform: capitalize;
+}
+
+.Footer_warper {
+   width: 76%;
+   height: 40vh;
+   justify-content: center;
+   gap: 8rem;
+}
+.Logo{
+   flex-basis: 20%;
+}
+
+.Logo img {
+   width: 245.31px;
+   height: 70.2px;
+   fill:  #FFFFFF;
+}
+
+.Logo p {
+   width: 250px;
+   height: 93px;
+   margin-top: 20px;
+   font-family: 'Poppins' !important;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 20px;
+   letter-spacing: -1px;
+   color: #FFFFFF;
+}
+.Footer_menu
+/* Footer Menu Css start  */
+.Footer_menu{
+   flex-basis: 80%;
+}
+.Footer_menu ul {
+   list-style: none;
+   gap: 10px;
+}
+.Footer_menu>ul>li{
+   /* height: 17px;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 12.6px;
+   line-height: 24px;
+   color: #FFFFFF; */
+   width: 247.89px;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 12.6px;
+   line-height: 24px;
+   color: #FFFFFF;
+}
+.Footer_menu ul li:hover{
+	cursor: pointer;
+	color:#04AF2F;
+   text-decoration: underline;
+}
+.ul_header {
+   width: 152.2px !important;
+   height: 31px !important;
+   font-family: 'Poppins' !important;
+   font-style: normal !important;
+   font-weight: 600 !important;
+   font-size: 22.68px !important;
+   line-height: 27px !important;
+   color: #FFFFFF !important;
+}
+/* Address block CSS */
+.Footer_Address {
+   gap: 10px;
+}
+.li_logo {
+   width: 15px;
+   height: 15px;
+}
+.addres_logo{
+   position: relative;
+   top:-12px;
+}
+.listitem {
+   width: 247.89px;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 12.6px;
+   line-height: 24px;
+   color: #FFFFFF;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+.Heading{
+   width: 247.89px;
+   height: fit-content;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 12.6px;
+   line-height: 24px;
+}
+.Heading>span{
+width: 54.06px;
+height: 17px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700 !important;
+font-size: 12.6px;
+line-height: 24px;
+color: #FFFFFF;
+}
+.Footer_icons li {
+   width: 31px;
+   height: 30px !important;
+   background: #FFFFFF;
+   border-radius: 5px;
+}
+
+.Footer_icons li img {
+   width: 100%;
+   width: 30px;
+   height: 30px;
+   border: 1px solid #FFFFFF;
+   border-radius: 10px;
+}
+/* Footer Menu Css End  */

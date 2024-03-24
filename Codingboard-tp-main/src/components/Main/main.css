@@ -1,0 +1,148 @@
+#main_section {
+   width: 100%;
+   height: 100vh;
+   z-index: 100;
+}
+
+.main {
+   gap: 10px;
+}
+
+.main h1 {
+   width: 646.11px !important;
+   height: 163.35px;
+   font-family: 'Helvetica' !important;
+   font-style: normal;
+   font-weight: 700 !important;
+   font-size: 70px;
+   line-height: 75px;
+   text-transform: uppercase;
+   text-align: -webkit-center;
+}
+
+.main h1 span {
+   font-family: 'Helvetica' !important;
+   font-style: normal;
+   font-weight: 700 !important;
+   font-size: 70px;
+   line-height: 80px;
+}
+
+.Welcome_text {
+   width: 671.32px;
+   height: 29.52px;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 30px;
+   line-height: 55px;
+   letter-spacing: -1px;
+}
+
+.Search_input {
+   width: 541.85px;
+   height: 67.44px;
+   background: linear-gradient(white, white) padding-box,
+      linear-gradient(to bottom, #70FF00, #04AF2F) border-box;
+   border-radius: 10px;
+   border: 3px solid transparent;
+}
+
+.Actions_text {
+   width: 671.32px;
+   height: 29.52px;
+   font-family: 'Poppins' !important;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 30px;
+   line-height: 55px;
+   letter-spacing: -1px;
+}
+
+.info_text {
+   width: 580.51px;
+   height: 75px;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 25px;
+   letter-spacing: -0.03em;
+   text-align: start;
+}
+
+.input_search {
+   width: 90%;
+   height: 42.73px;
+   border: none;
+   padding: 13px;
+   outline: none;
+}
+
+input::placeholder {
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 25px;
+   line-height: 55px;
+}
+
+.Free_signup {
+   width: 367.26px;
+   height: 68.48px;
+   background: #04AF2F !important;
+   color: #FFFFFF;
+   border-radius: 10px;
+   border: none;
+   text-align: center;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 23.4px;
+   line-height: 33px;
+   cursor: pointer;
+}
+
+.Login-text {
+   margin-top: 10px;
+   width: 300px;
+   font-family: 'Poppins';
+   font-style: normal;
+}
+
+.Login-text p {
+   width: 229.79px;
+   height: 25px;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   text-align: center;
+   line-height: 25px;
+   letter-spacing: -0.03em;
+   margin-bottom: 0px !important;
+}
+
+.Login-text button {
+   width: 69.44px;
+   height: 25px;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 25px;
+   letter-spacing: -0.03em;
+   border: none;
+   background: transparent;
+}
+.Login-text button:hover{
+	color: #04AF2F;
+}
+.Search_icon {
+   Width: 29.2px;
+   Height: 28.18px;
+   cursor: pointer;
+}
+
+.Arrow_icon {
+   width: 14.18px;
+   cursor: pointer;
+}
