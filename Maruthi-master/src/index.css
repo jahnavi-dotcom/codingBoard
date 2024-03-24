@@ -1,0 +1,510 @@
+/* Import the Roboto Font style  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+/* Variables Declaring and Custom value assigning */
+:root {
+  --BodyColor: #F8F9FA;
+  --textSize: 16px;
+  --titleSize: 18px;
+  --headerSize: 24px;
+  --whiteColor: #fff;
+  --GrayColor: #CACACA;
+  --BlackColor: #1a1a1a;
+  --PrimaryBlueColor: #2176FF;
+  --BlueColor: #2D3394;
+}
+
+/* Body config css */
+* {
+  margin: 0px;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+
+body {
+  background-color: var(--BodyColor) !important;
+}
+
+
+/* Button styles */
+.Button {
+  width: 200px;
+  padding: 8px 10px;
+  font-size: var(--textSize);
+  border: 0.5px solid var(--GrayColor);
+  background-color: var(--BlueColor);
+  border-radius: 40px;
+  letter-spacing: 1px;
+  color: var(--whiteColor);
+  text-transform: capitalize;
+}
+
+.Search_Button {
+  width: 200px;
+  padding: 8px 10px;
+  font-size: var(--textSize);
+  border: none;
+  background-color: transparent;
+  border-radius: 40px;
+  letter-spacing: 1px;
+  color: var(--BlueColor);
+  text-transform: capitalize;
+}
+
+.icon {
+  width: 20px;
+  margin-right: 5px;
+  background: transparent;
+}
+
+.Logout-btn {
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+  font-size: var(--textSize);
+  background-color: transparent;
+  border: none !important;
+  border-radius: 20px;
+  color: var(--PrimaryBlueColor);
+}
+
+/* NavBar Css */
+.Nav_section {
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky !important;
+  top: 0px;
+  background-color: var(--BodyColor);
+  z-index: 1000;
+}
+
+.Maruthi_Logo>img {
+  border-right: 3px solid var(--GrayColor);
+  padding-right: 15px;
+  width: 124px;
+  height: 62px;
+}
+
+.Maruthi_Logo>h1 {
+  font-size: var(--headerSize);
+  color: var(--BlueColor);
+  padding: 15px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+
+
+/*  Login Page Css */
+.Login_section {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Login_Box {
+  width: 470px;
+  padding: 50px;
+  background-color: var(--whiteColor) !important;
+}
+
+.Login_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: var(--whiteColor);
+}
+
+.Login_wrapper>* {
+  background-color: var(--whiteColor) !important;
+}
+
+.Login_wrapper>h1 {
+  font-size: var(--headerSize);
+  color: var(--BlackColor);
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.Login_wrapper>form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.Input_labels {
+  font-size: var(--textSize);
+  color: var(--BlackColor);
+  background-color: var(--whiteColor) !important;
+  text-transform: capitalize;
+}
+
+#InputPassword1,
+#InputEmail1 {
+  border-radius: 1px !important;
+  padding: 8px;
+}
+
+#RememberCheck {
+  border-radius: 1px;
+}
+
+.showPassword {
+  position: absolute;
+  right: 10px;
+  bottom: -0px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.Forgot_links>a {
+  color: var(--PrimaryBlueColor);
+  font-size: 16px;
+  background-color: var(--whiteColor);
+  text-decoration: none;
+}
+
+
+
+
+
+/* Dashboard page css */
+.search_box {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.search_Wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.search_Wrapper>h1 {
+  font-size: var(--titleSize);
+  color: var(--BlackColor);
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.search_Wrapper>form {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.label_logo {
+  width: 20px;
+  position: absolute;
+  top: 45px;
+  left: 12px;
+  background-color: transparent;
+}
+
+.trasparent_lable {
+  background-color: transparent !important;
+}
+
+#InputTransaction {
+  width: 400px;
+  padding: 10px 0px;
+  padding-left: 40px;
+  font-size: var(--textSize);
+}
+
+#SearchInputDate {
+  width: 160px !important;
+  padding: 10px 0px;
+  padding-left: 10px;
+  font-size: var(--textSize);
+}
+
+.search_btn {
+  margin-top: 6px;
+  height: 50px !important;
+  padding: 0px !important;
+  font-size: var(--textSize);
+  align-self: center;
+}
+
+/* Searched Transactions */
+.Searched_Transactions {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Searched_Transactions>h1 {
+  font-size: var(--textSize);
+  color: var(--GrayColor);
+  font-weight: bold;
+}
+
+/* Table Custome Css
+ */
+.transaction_table {
+  width: 900px !important;
+  background-color: var(--whiteColor);
+}
+
+.table_row {
+  padding: 30px 0px !important;
+}
+
+.E_D_button {
+  border: none;
+  background: none;
+  font-size: var(--textSize);
+  padding-left: 20px;
+  color: var(--BlueColor);
+}
+
+.E_D_icon {
+  padding: 5px;
+  margin-top: 1px;
+}
+
+.UpArrow {
+  transform: rotate(180deg);
+}
+
+/* New Transaction Page Css */
+.newSearch_Wrapper {
+  display: flex;
+  flex-direction: column;
+  font-size: var(--textSize) !important;
+}
+
+.newSearch_Wrapper>h1 {
+  font-size: var(--titleSize);
+  color: var(--BlackColor);
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.newSearch_Wrapper .form {
+  width: 830px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px 0px;
+  background-color: var(--whiteColor);
+  padding: 50px;
+  border-radius: 15px;
+}
+
+#InputVehicleNumber {
+  width: 300px;
+  border-radius: 1px !important;
+  padding: 8px;
+  border: 0.5px solid var(--GrayColor);
+}
+
+/* .hiddenRow {
+  padding: 0 !important;
+} */
+
+.calender_logo {
+  position: absolute;
+  top: 40px !important;
+  left: 10px !important;
+}
+
+#InputVehicleNumber::placeholder,
+#InputVehiclePartName::placeholder,
+#InputVehicleDetails::placeholder {
+  font-size: 16px !important;
+  color: var(--GrayColor);
+}
+
+.searchItems {
+  width: 900px !important;
+}
+
+.searchItems_Wrapper {
+  padding: 30px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.customer_details {
+  border-radius: 10px !important;
+  padding: 20px 30px;
+  background-color: var(--whiteColor) !important;
+}
+
+.Parts_details {
+  border-radius: 10px !important;
+  padding: 10px 40px;
+  background-color: var(--whiteColor) !important;
+}
+
+
+
+
+/* VehiclePart Design Css */
+.NewSearch_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.NewSearch_header>h1 {
+  font-size: var(--titleSize);
+  color: var(--BlackColor);
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.add_btn {
+  width: 110px !important;
+  height: 39px !important;
+  font-size: 16px !important;
+  padding: 0px 0px !important;
+  background-color: var(--whiteColor);
+  color: var(--BlueColor);
+  margin-bottom: 10px !important;
+}
+
+#InputVehiclePartName {
+  width: 250px;
+  border-radius: 1px !important;
+  padding: 8px;
+  border: 0.5px solid var(--GrayColor);
+}
+
+#InputVehicleDetails {
+  width: 70px;
+  border-radius: 1px !important;
+  padding: 8px;
+  border: 0.5px solid var(--GrayColor);
+}
+
+
+.VehiclePart_form {
+  width: 830px;
+  gap: 10px 0px;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: var(--whiteColor) !important;
+}
+
+.Delete_btn {
+  text-transform: capitalize;
+  font-size: 16px;
+  color: var(--BlueColor);
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+}
+
+.Delete_icon {
+  height: 16px !important;
+  margin-top: 2px;
+}
+
+.total_Calculations {
+  width: 830px;
+  gap: 10px 0px;
+  border-radius: 15px;
+  padding-top: 50px;
+}
+
+.Calculations_wrapper {
+  background-color: var(--BodyColor) !important;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+#inputGst {
+  width: 100px;
+  border-radius: 1px !important;
+  border: 0.5px solid var(--GrayColor);
+}
+
+.PartsLabels {
+  font-size: var(--textSize);
+  text-transform: capitalize;
+}
+
+.submit {
+  width: 100px !important;
+  margin-left: 10px !important;
+  background-color: var(--BlueColor) !important;
+  color: var(--whiteColor) !important;
+}
+
+
+/* Popup Screen */
+.popup_text {
+  width: 300px !important;
+  font-size: var(--textSize) !important;
+  line-height: 32px !important;
+  word-spacing: 1px;
+}
+
+.popup_btn {
+  position: relative;
+  bottom: -20px;
+  margin-top: 20px !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.Print_btn {
+  width: 100px !important;
+}
+
+.Close_btn {
+  width: 100px !important;
+  color: var(--PrimaryBlueColor) !important;
+  background: var(--whiteColor) !important;
+  border: 0.5px solid var(--PrimaryBlueColor);
+}
+
+
+
+
+
+
+/* Custom date Inputs */
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  color: rgba(0, 0, 0, 0);
+  opacity: 0;
+  display: block;
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 25px;
+  border-width: thin
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  position: absolute;
+  left: 10px;
+}
+
+input::-webkit-datetime-edit-fields-wrapper {
+  position: relative;
+  left: 10%;
+}
+
+input::-webkit-datetime-edit {
+  position: relative;
+  left: 10%;
+}

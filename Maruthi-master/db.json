@@ -1,0 +1,107 @@
+{
+  "Users": [
+    {
+      "id": 1,
+      "Username": "User@gmail.com",
+      "UserPassword": "user123"
+    },
+    {
+      "id": 2,
+      "Username": "User2@gmail.com",
+      "UserPassword": "user123"
+    }
+  ],
+  "Transactions": [
+    {
+      "id": 1,
+      "transactionnumber": 57,
+      "vehiclenumber": "TS07HK12345",
+      "billamount": 45000,
+      "phonenumber": "7702761176",
+      "dateofadmit": "2023-04-03",
+      "dateofdelivery": "2023-04-03",
+      "paymentmode": "Online",
+      "transactiondetails": [
+        {
+          "id": 1,
+          "name": "clutch plates",
+          "quantity": "2",
+          "rate": "500",
+          "amount": "1000"
+        },
+        {
+          "id": 2,
+          "name": "Break plates",
+          "quantity": "4",
+          "rate": "600",
+          "amount": "2400"
+        },
+        {
+          "id": 3,
+          "name": "Glass plates",
+          "quantity": "5",
+          "rate": "700",
+          "amount": "3500"
+        }
+      ],
+      "customerName": "Venkat"
+    },
+    {
+      "id": 2,
+      "transactionnumber": 58,
+      "vehiclenumber": "TS07HK12345",
+      "billamount": 45000,
+      "phonenumber": "7702761176",
+      "dateofadmit": "2023-04-03",
+      "dateofdelivery": "2023-04-03",
+      "paymentmode": "Online",
+      "transactiondetails": [
+        {
+          "id": 1,
+          "name": "clutch plates",
+          "quantity": "2",
+          "rate": "500",
+          "amount": "1000"
+        },
+        {
+          "id": 2,
+          "name": "Break plates",
+          "quantity": "4",
+          "rate": "600",
+          "amount": "2400"
+        },
+        {
+          "id": 3,
+          "name": "Glass plates",
+          "quantity": "5",
+          "rate": "700",
+          "amount": "3500"
+        }
+      ],
+      "customerName": "Venkat"
+    }
+  ],
+  "Parts": [
+    {
+      "id": 1,
+      "PartName": "clutch plates",
+      "Quantity": "2",
+      "Rate": "500",
+      "Amount": "2000"
+    },
+    {
+      "id": 2,
+      "name": "Break plates",
+      "quantity": "4",
+      "rate": "600",
+      "amount": "2400"
+    },
+    {
+      "id": 3,
+      "name": "Glass plates",
+      "quantity": "5",
+      "rate": "700",
+      "amount": "3500"
+    }
+  ]
+}

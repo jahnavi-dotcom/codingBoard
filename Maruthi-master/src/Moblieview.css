@@ -1,0 +1,78 @@
+/* Login Mobile view */
+/* 320px */
+@media screen and (min-width: 380px) {
+   .Nav_section {
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky !important;
+      top: 0px;
+      background-color: var(--BodyColor);
+      z-index: 1000;
+   }
+
+   .Maruthi_Logo>img {
+      border-right: 3px solid var(--GrayColor);
+      padding-right: 10px;
+      width: 90px;
+      height: 40px;
+   }
+
+   .Maruthi_Logo>h1 {
+      padding: 0px;
+      padding-top: 7px;
+      margin-left: 5px;
+   }
+
+}
+
+/* 480px */
+@media screen and (min-width: 600px) {
+   .Nav_section {
+      height: 5vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+   }
+
+   .Maruthi_Logo>img {
+      border-right: 3px solid var(--GrayColor);
+      padding-right: 10px;
+      width: 90px;
+      height: 40px;
+   }
+
+   .Maruthi_Logo>h1 {
+      padding: 0px;
+      padding-top: 7px;
+      margin-left: 5px;
+   }
+
+}
+
+
+
+
+/* Login page */
+@media screen and (min-width: 380px) {
+   .Login_section {
+      height: 60vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .Login_Box {
+      width: 400px;
+      padding: 30px;
+      background-color: var(--whiteColor) !important;
+   }
+
+   .Forgot_links>a {
+      font-size: 13px;
+   }
+
+}
